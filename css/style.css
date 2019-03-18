@@ -1,0 +1,275 @@
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, ins, strong, ul, li, section, article, aside, footer, header, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+* {
+	-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { 
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+  width: 1000px; 
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#container > div { 
+    margin-bottom: 5px; 
+    color: black;
+    height: 800px; 
+}
+
+#header { 
+    width:100%;
+    height: 145px;
+    background-color: #c4c63f; 
+    background-image: linear-gradient(to bottom, #c4c63f, #8ea03f);
+    background-image: -moz-linear-gradient(bottom, #c4c63f, #8ea03f);
+    background-image: -webkit-linear-gradient(bottom, #c4c63f, #8ea03f);
+    background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f); 
+    margin-bottom: 8px;
+}
+
+.title {
+	color: white;
+	float: right;
+	padding-right: 300px;
+	padding-top: 30px;
+	font-size: 30px;
+
+}
+
+.subtitle {
+float: right;
+padding-top: 40px;
+text-align: right;
+padding-right: 3px;
+font-size: 10px;
+}
+
+
+.issue {
+	float: left;
+	padding-left: 20px;
+	padding-top: 30px;
+	font-weight: 800;
+	font-size: 12px;
+
+}
+
+.issueNum {
+	color: white;
+	font-weight: 800;
+	font-size: 32px; 
+}
+
+
+
+/*-------------------------Nav Bar-----------------------*/
+
+nav {
+	position: absolute;
+	padding-left: 33%;
+	padding-top: 12%;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	border-right: solid 1px white;
+	padding: 0;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+a {
+	display: block;
+	padding-right: 3px;
+	padding-left: 3px;
+	font-size: 12px;
+	font-weight: 800;
+	color: white;
+	text-decoration: none;
+}
+
+#colorName {
+	color: red;
+}
+
+/*-----------------Start Main Content-----------------*/
+
+#main-content { 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*-----------------Column 1 Style "Solutions"-----------------*/
+.column1 {
+	background-color: rgb(46, 54, 64);
+	width: 25%; 
+	height: 800px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+	float: left;
+}
+
+.column1 h2 {
+    color: #ec7939;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.column1 p {
+  color: white;
+  font-size: 13.5px;
+	line-height: 1.7em;
+}
+/*-----------------Column 2 Style "Photo"-----------------*/
+
+.column2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 37%;
+  height: 250px;
+  float: left;
+  padding-top: 5px;
+}
+
+/*-----------------Column 3 Style "This Issue"-----------------*/
+
+.column3 {
+  background-color: rgb(46, 54, 64);
+  width: 38%;
+  height: 250px;
+  float: left;
+
+  display: inline-block;
+  padding-top: 30px; 
+}
+
+.column3 ul {
+	text-align: right;
+}
+
+.column3 h2 {
+    color: #ec7939;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.column3 h2, ul {
+  list-style: none;
+  padding-right: 100px;
+  line-height: 1.7em;
+  align-content: center;
+}
+
+
+.column3 li {
+    color: white;
+}
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-----------------Column 4 Main Article Style-----------------*/
+
+.column4 {
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  width: 75%;
+  height: 550px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+
+}
+
+.column4 > h2 {
+	color: green;
+  font-size: 20px;
+  padding-top: 2.5px;
+ }
+
+ .column4 > h3 {
+	color: green;
+ }
+
+.column4 p {
+  line-height: 1.5em;
+	margin-bottom: 15px;	
+	font-size: 14px;
+}
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-----------------Footer Style-----------------*/
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	font-size: 13px;	
+	padding: 10px 10px 30px 10px;
+	background-color: #c4c63f; 
+  background-image: linear-gradient(to bottom, #c4c63f, #8ea03f);
+  background-image: -moz-linear-gradient(bottom, #c4c63f, #8ea03f);
+  background-image: -webkit-linear-gradient(bottom, #c4c63f, #8ea03f);
+  background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f); 
+	clear: both;	
+	margin-bottom: 5px;
+}
+
+.copyright {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1.25em;
+    }
+    
+.copyright a {
+    color:#fff;
+	}
+
+	#logo {
+		float: right;
+		height: 100%;
+		width: 75px;
+		margin-top: -85px;
+		padding-right: 10px
+	}
