@@ -83,16 +83,17 @@
 		padding-right: 10px
 	}
 
-	.eventCol {
+.column5, .column6, .column7 {
 		margin: 0;
 		padding: 0;
 	  float: left;
 	  width: 100%;
 		background-color: rgb(46, 54, 64);
+		height: auto;
 
 	}
 
-	#events1, #events2 {
+	.eventH {
 		color: #ec7939;
 	}
 

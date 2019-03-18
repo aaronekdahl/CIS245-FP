@@ -277,45 +277,72 @@ footer {
 	/*-------------Events Page-------------*/
 
 	* {
-  box-sizing: border-box;
-}
+	  box-sizing: border-box;
+	}
 
-.column1-events {
-	background-color: blue;
-}
+	.column5 {
+	  float: left;
+	  width: 25%;
+	  padding: 10px;
+	  height: 800px;
+		background-color: rgb(46, 54, 64);
+	}
 
+	.column5 h2 {
+	    color: #ec7939;
+	    font-size: 20px;
+	    padding-top: 30px;
+	}
 
-.column1-events h2 {
-    color: #ec7939;
-    font-size: 20px;
-    padding-top: 30px;
-}
+	.column5 p {
+	  color: white;
+	  font-size: 13.5px;
+		line-height: 1.7em;
+	}
 
-.column1-events p {
-  color: white;
-  font-size: 13.5px;
-	line-height: 1.7em;
-}
+	.column6 {
+		float: left;
+		width: 37.5%;
+		padding: 10px;
+		height: 400px;
+	}
 
-.eventCol {
-	margin: 0;
-	padding: 0;
+	.column7 {
+		float: left;
+		width: 37.5%;
+		padding: 10px;
+		height: 400px;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.event-list, .eventH {
+		padding-left: 20px;
+	}
+
+	.event-list {
+		list-style-type: square;
+	}
+
+	.eventitem {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+
+	.eventH {
+		padding-bottom: 10px;
+	}
+
+.eventimg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
   float: left;
-  width: 37.5%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.eventcontainer {
-	padding-left: 40px;
-
-}
-
-.eventitem {
-	list-style-type: circle;
-	font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 10px;
 }
