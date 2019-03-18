@@ -10,7 +10,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, ins, strong, ul, l
   box-sizing: border-box;
 }
 
-body { 
+body {
     background-color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,27 +18,27 @@ body {
 }
 
 #container {
-  width: 1000px; 
+  width: 1000px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
 }
 
-#container > div { 
-    margin-bottom: 5px; 
+#container > div {
+    margin-bottom: 5px;
     color: black;
-    height: 800px; 
+    height: 800px;
 }
 
-#header { 
+#header {
     width:100%;
     height: 145px;
-    background-color: #c4c63f; 
+    background-color: #c4c63f;
     background-image: linear-gradient(to bottom, #c4c63f, #8ea03f);
     background-image: -moz-linear-gradient(bottom, #c4c63f, #8ea03f);
     background-image: -webkit-linear-gradient(bottom, #c4c63f, #8ea03f);
-    background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f); 
+    background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f);
     margin-bottom: 8px;
 }
 
@@ -72,7 +72,7 @@ font-size: 10px;
 .issueNum {
 	color: white;
 	font-weight: 800;
-	font-size: 32px; 
+	font-size: 32px;
 }
 
 
@@ -119,7 +119,7 @@ a {
 
 /*-----------------Start Main Content-----------------*/
 
-#main-content { 
+#main-content {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -129,7 +129,7 @@ a {
 /*-----------------Column 1 Style "Solutions"-----------------*/
 .column1 {
 	background-color: rgb(46, 54, 64);
-	width: 25%; 
+	width: 25%;
 	height: 800px;
 	padding-top: 10px;
 	padding-left: 10px;
@@ -169,7 +169,7 @@ a {
   float: left;
 
   display: inline-block;
-  padding-top: 30px; 
+  padding-top: 30px;
 }
 
 .column3 ul {
@@ -228,7 +228,7 @@ a {
 
 .column4 p {
   line-height: 1.5em;
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 	font-size: 14px;
 }
 
@@ -244,14 +244,14 @@ footer {
 	position: relative;
 	width: 100%;
 	height: 120px;
-	font-size: 13px;	
+	font-size: 13px;
 	padding: 10px 10px 30px 10px;
-	background-color: #c4c63f; 
+	background-color: #c4c63f;
   background-image: linear-gradient(to bottom, #c4c63f, #8ea03f);
   background-image: -moz-linear-gradient(bottom, #c4c63f, #8ea03f);
   background-image: -webkit-linear-gradient(bottom, #c4c63f, #8ea03f);
-  background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f); 
-	clear: both;	
+  background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f);
+	clear: both;
 	margin-bottom: 5px;
 }
 
@@ -261,7 +261,7 @@ footer {
     text-align: left;
     line-height: 1.25em;
     }
-    
+
 .copyright a {
     color:#fff;
 	}
@@ -273,3 +273,49 @@ footer {
 		margin-top: -85px;
 		padding-right: 10px
 	}
+
+	/*-------------Events Page-------------*/
+
+	* {
+  box-sizing: border-box;
+}
+
+.column1-events {
+	background-color: blue;
+}
+
+
+.column1-events h2 {
+    color: #ec7939;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.column1-events p {
+  color: white;
+  font-size: 13.5px;
+	line-height: 1.7em;
+}
+
+.eventCol {
+	margin: 0;
+	padding: 0;
+  float: left;
+  width: 37.5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.eventcontainer {
+	padding-left: 40px;
+
+}
+
+.eventitem {
+	list-style-type: circle;
+	font-size: 12px;
+}

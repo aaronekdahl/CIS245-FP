@@ -82,3 +82,20 @@
 		margin-top: -10px;
 		padding-right: 10px
 	}
+
+	.eventCol {
+		margin: 0;
+		padding: 0;
+	  float: left;
+	  width: 100%;
+		background-color: rgb(46, 54, 64);
+
+	}
+
+	#events1, #events2 {
+		color: #ec7939;
+	}
+
+	.eventitem {
+	 color: white;
+	}
